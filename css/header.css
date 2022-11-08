@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(23, 23, 23);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.titulo {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(196, 196, 196);
+    font-size: 25px;
+}
+
+.titulo:hover {
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+.nav{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(196, 196, 196);
+    font-size: 15px;
+}
+.nav:hover{
+    color: white;
+}
+.inicio {
+    top: 15px;
+    bottom: auto;
+    right: auto;
+    left: 50px;
+    position: absolute;
+}
+.paginas {
+    display: flex;
+    top: 35px;
+    bottom: auto;
+    right: 50px;
+    left: auto;
+    position: absolute;
+}
+
+.logica,
+.dicas,
+.fundamentos,
+.contato {
+    padding-left: 20px;
+}
+
+.logica:hover,
+.dicas:hover,
+.fundamentos:hover,
+.contato:hover {
+    color: white;
+}
+a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(196, 196, 196);
+    font-size: 13px;
+}
+
+a:hover {
+    color: white;
+}
+body::-webkit-scrollbar {
+    width: 3px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(23, 23, 23);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(23, 23, 23);
+    border-radius: 1px;
+    border: 10px solid rgb(196, 196, 196);
+}

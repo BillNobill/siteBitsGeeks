@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+.img1 {
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+    object-position: 0% 20%;
+    opacity: 0.3;
+    filter: blur(1.5px);
+}
+.img2{
+    width: 100%;
+    height: 23vw;
+    position: relative;
+    object-fit: cover;
+    object-position: 0% 100%;
+    opacity: 0.7;
+
+}
+.img3{
+    width: 100%;
+    height: 23vw;
+    position: relative;
+    object-fit: cover;
+    object-position: 0% 55%;
+    opacity: 0.7;
+}
+.img4{
+    width: 100%;
+    height: 23vw;
+    position: relative;
+    object-fit: cover;
+    object-position: 0% 55%;
+    opacity: 0.7;
+}
+.img5{
+    width: 100%;
+    height: 23vw;
+    position: relative;
+    object-fit: cover;
+    object-position: 0% 15%;
+    opacity: 0.6;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(23, 23, 23);
+}
+html{
+    scroll-behavior: smooth;
+}
+.icon {
+    color: rgb(196, 196, 196);
+    height: 6vh;
+    width: 6vh;
+    border: 0.3vh solid rgb(38, 38, 38);
+    border-radius: 100%;
+    padding: 40px;
+    transition-duration: 1.5s;
+    margin-top: 0%;
+}
+
+.icon:hover {
+    color: white;
+    border: 0.3vh solid white;
+    transition-duration: 2s;
+    box-shadow: 0 0 0.1em rgb(255, 255, 255),inset 0 0 0.1em rgb(255, 255, 255);
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+#icontitle, .conteudotitle{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(196, 196, 196);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+}
+.iconwrite{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(196, 196, 196);
+    font-size: 20px;
+    text-align: center;
+}
+.icon1, .icon2, .icon3, .icon4{
+    width: 20%;
+    text-align: center;
+}
+.iconcomentario{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(196, 196, 196);
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: -10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.conteudotext{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(230, 230, 230);
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    text-indent: 50px;
+}
+.conteudocaixa{
+    width: 50vw;
+    margin-left: 10vw;
+    margin-top: 3vw;
+    
+}
+.viewmore{
+    color: rgb(157, 157, 157);
+    height: 50%;
+    width: 70%;
+    border: 0.3vh solid rgb(157, 157, 157);
+    background-color: rgb(23, 23, 23);
+    border-radius: 8px;
+    transition-duration: 1.5s;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(230, 230, 230);
+    font-size: 20px;
+    margin-top: 4.8vw;
+    margin-left: 13vw;
+    font-weight: 600;
+}
+.viewmore:hover{
+    color: white;
+    border: 0.3vh solid white;
+    transition-duration: 1s;
+    box-shadow: 0 0 0.05em rgb(255, 255, 255),inset 0 0 0.05em rgb(255, 255, 255);
+    font-weight:900;
+    background-color: rgb(32, 32, 32);
+}
+
+.viewmore:active{
+    background-color: rgb(97, 97, 97);
+    transition-duration: 0.2s;
+}
+.main{
+    display: flex;
+}
